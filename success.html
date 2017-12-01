@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script>
+		
+var connection = new ActiveXObject("ADODB.Connection") ;
+ 
+var connectionstring="Data Source=138.122.96.181,1434;Initial Catalog=app_migas;User ID=sa;Password=M1G4s2017#;Provider=SQLOLEDB";
+ 
+connection.Open(connectionstring);
+var rs = new ActiveXObject("ADODB.Recordset");
+ 
+rs.Open("SELECT * FROM Usuarios", connection);
+rs.MoveFirst
+while(!rs.eof)
+{
+   document.write(rs.fields(1));
+   rs.movenext;
+}
+ 
+rs.close;
+connection.close;
+	</script>
+</body>
+</html>
