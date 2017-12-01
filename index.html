@@ -3,7 +3,7 @@
 <head>
 	<title>Inicio de Sesión</title>
 	<meta charset="utf-8">
-	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -25,36 +25,8 @@
 	    <label for="exampleInputPassword1">Contraseña</label> 
 	    <input type="password" class="form-control" id="password" name="password" placeholder="***********">
 	  </div>
-	  <button type="submit" class="btn btn-primary" onclick="validate()" >Entrar</button>
+	  <button class="btn btn-primary" onclick="pagina('menup.php')" >Entrar</button>
 	</form>
 </body>
 
 </html>
-
-<script>
-	var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "josue" && password == "12345"){
-alert ("Login redireccionando....");
-window.location = "success.html"; // Redirecting to other page.
-return false;
-}
-else{
-attempt --;// Decrementing by one.
-alert("Error lo has intentado "+attempt+" veces;");
-// Disabling fields after 3 attempts.
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
-}
-}
-
-
-
-</script>
