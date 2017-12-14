@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+/*============DIV====================*/
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12,
+.div30,
+.div80,
+.div65,
+.div45 {
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.div1 { width: 99%; }
+.div2 { width: 48.5%; }
+.div3 { width: 32%; }
+.div4 { width: 24%; }
+.div5 { width: 19.8%; }
+.div6 { width: 16.5%; }
+.div7 { width: 14.14%; }
+.div8 { width: 12.37%; }
+.div9 { width: 11%; }
+.div10 { width: 9.9%; }
+.div11 { width: 9%; }
+.div12 { width: 8.25%; }
+.div30 { width: 32.5%; }
+.div80 { width: 79%; }
+.div65 { width: 65%; }
+.div45 { width: 44.5%; }
+
+.contenido{ 
+    width: 100%; 
+    height: 100%;  
+    /* background: yellow; */ 
+    float: left;
+    position: absolute;}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    background: rgba(236,238,239,1);
+    color: black;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 50pt;
+    font-size: 1.5em;
+}
+/*===============BUTTONS================*/
+
+button {
+    height: 40px;
+    width: 60%;
+    border-radius: 15px;
+    font-size: 1em;
+    color: white;
+    outline: none;
+}
+
+/*===============INPUTS=================*/
+
+input[type="text"],
+input[type="password"] {
+    float: left;
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 1);
+    padding: 5px;
+    outline: none;
+    transition: .5s all;
+    color: rgba(0, 0, 0, 1);
+}
+
+input[type="date"] {
+    float: left;
+    height: 32px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 200;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 1);
+    padding: 5px;
+    outline: none;
+    transition: .5s all;
+    color: rgba(0, 0, 0, 1);
+}
+
+select {
+    background: rgba(205, 205, 205, .1);
+    float: left;
+    height: 33px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 200;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    transition: .5s all;
+    color: rgba(0, 0, 0, 1);
+}
+
+select,
+option {
+    color: black;
+}
+
+
+
+
+/*=========INDEX.PHP==========*/
+.formulario{
+    width: 100%;
+    height: 85%;
+    float: left;
+    position: relative;
+}
+
+.cont-form{ 
+    width: 30%;
+    height: 55%;
+    /* background: blue; */
+    float: left;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 1em;
+    border: 2px solid rgba(236,238,239,.8);
+ }
+
+
+ /*==================MENULATERAL=============*/
+
+ .menulateral{
+    width: 11%;
+    height: 90%;
+    float: left;
+    position: relative;
+    background: rgba(76,83,85,1);
+    line-height: 45pt;
+    color: white;
+ }
+
+  /*==================CENTRO=============*/
+
+  .centro{
+    width: 89%;
+    height: 90%;
+    float: left;
+    position: relative;
+    /* background: blue; */
+  }
