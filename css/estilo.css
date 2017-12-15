@@ -44,7 +44,7 @@
 .div10 { width: 9.9%; }
 .div11 { width: 9%; }
 .div12 { width: 8.25%; }
-.div30 { width: 32.5%; }
+.div30 { width: 31.5%; }
 .div80 { width: 79%; }
 .div65 { width: 65%; }
 .div45 { width: 44.5%; }
@@ -179,3 +179,22 @@ option {
     position: relative;
     /* background: blue; */
   }
+
+
+/*==============RESULTADO-BUSCAR==============*/
+.resultado{
+    /*background:grey;*/
+    width:99%;
+    height:73.5%;    
+    position: relative;
+    float: left;
+}
+.tabla{
+    background:rgba(236,238,239,.7);
+    width: 80%;
+    height: 65%;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}

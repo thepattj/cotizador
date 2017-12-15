@@ -12,8 +12,7 @@
 		<div class="nav">
 			<div class="div30"></div>
 			<div class="div30">Cotizador Incapital</div>
-			<div class="div30"><img src="img/logo.png"> </div>
-			
+			<div class="div30"><img src="img/logo.png"> </div>			
 		</div>
 		<div class="formulario">
 			<form class="cont-form" onsubmit="return false" class="riz" id="formulario">
