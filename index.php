@@ -10,9 +10,9 @@
 <body>
 	<div class="contenido">
 		<div class="nav">
-			<div class="div30"></div>
+			<div class="div30"><img src="img/logo.png" style="height: 99%; width:38%; margin-left:-50%; margin-top:.5%;"></div>
 			<div class="div30">Cotizador Incapital</div>
-			<div class="div30"><img src="img/logo.png"> </div>			
+			<div class="div30"></div>
 		</div>
 		<div class="formulario">
 			<form class="cont-form" onsubmit="return false" class="riz" id="formulario">
@@ -34,8 +34,7 @@
 				<div class="div1"><button style="border: 2px solid rgba(6,120,0,.8); background-color: rgba(6,120,0,.8); width: 34.5%; margin-left: 10%;" onclick="pagina('inicio.php')">Acceder</button></div>
 			</form>
 		</div>
-	</div>	
+	</div>
 </body>
 
 </html>
-
